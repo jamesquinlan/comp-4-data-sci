@@ -1,5 +1,8 @@
 # Computational Techniques for Data Science
 
+This course provides a practical introduction to the data science workflow using Python. Successful completion of the course will involve using advanced features of Python, retrieving information in data files, working with numpy and pandas library, visualizing information and completing an end to end data science project.
+
+
 
 
 ## Textbook
