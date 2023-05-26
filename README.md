@@ -36,6 +36,6 @@ Intro to Python for Computer Science and Data Science: Learning to Program with 
   title={Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow},
   author={G{\'e}ron, Aur{\'e}lien},
   year={2022},
-  publisher={" O'Reilly Media, Inc."}
+  publisher={"O'Reilly Media, Inc."}
 }
 ```
