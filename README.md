@@ -19,13 +19,14 @@ Although there is no prescriptive process, here are the main steps you go throug
 
 ## Textbook
 
-Intro to Python for Computer Science and Data Science: Learning to Program with AI, Big Data and The Cloud by Paul J. Deitel, and Harvey Deitel.  
+Deitel, P., & Deitel, H. (2019). _Intro To Python for Computer Science and Data Science: Learning To Program with AI, Big Data and The Cloud_: Pearson.
+
 
 ```
-@book{deitel2020intro,
-  title={Intro to Python for Computer Science and Data Science},
+@book{deitel2019intro,
+  title={Intro To Python for Computer Science and Data Science: Learning To Program with AI, Big Data and The Cloud},
   author={Deitel, Paul and Deitel, Harvey},
-  year={2020},
+  year={2019},
   publisher={Pearson Education}
 }
 ```
