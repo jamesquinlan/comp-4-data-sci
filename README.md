@@ -6,11 +6,11 @@ This course provides a practical introduction to the data science workflow using
 
 One common data science project lifecycle is the OSEMN:
 
-1. Obtain
-2. Scrub
-3. Explore
-4. Model
-5. Interpret
+1. **Obtain** - query database, web scrape, web APIs, read file.  If it is big data, you will use: distributed storage like Apache Hadoop, or Spark. 
+2. **Scrub** - clean, wrangle, replace, normalize, standardize, handle outliers, feature engineer. Big data may require MapReduce.
+3. **Explore** - Exploratory Data Analysis (EDA).  Determine data types (categorical, numeric, ordinal, etc.).  Are there any correlated data?  Can you reduce the number of factors/dimensions?  Look for patterns.  Run summary statistics and plot.  
+4. **Model and Assess** - Select machine learning method, tune hyperparameters, train, and cross validate.  Use Sci-kit Learn with python and CARET with R.  For regressions, be familiar with R-square to measure goodness-of-fit, and use error scores including MAE (Mean Average Error), or RMSE (Root Mean Square Error) to measure the distance between the predicted and observed data points.
+5. **Interpret** - Present to non-technical persons, and actionable insight is a key outcome.  Data visualization include Matplotlib, ggplot, Seaborn, Tableau, d3js, etc.  
 
 
 ## End-to-End Machine Learning Process
