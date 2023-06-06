@@ -2,6 +2,16 @@
 
 This course provides a practical introduction to the data science workflow using Python. Successful completion of the course will involve using advanced features of Python, retrieving information in data files, working with numpy and pandas library, visualizing information and completing an end to end data science project.
 
+## Data Science Process
+
+One common data science project lifecycle is the OSEMN:
+
+1. Obtain
+2. Scrub
+3. Explore
+4. Model
+5. Interpret
+
 
 ## End-to-End Machine Learning Process
 
