@@ -1,10 +1,8 @@
 # Computational Techniques for Data Science
 
-This course provides a practical introduction to the data science workflow using Python. Successful completion of the course will involve using advanced features of Python, retrieving information in data files, working with `numpy` and `pandas` library, visualizations with `matplotlib` and `seaborn`, and machine and deep learning with `scikit-learn`, `pytorch` (or `keras`).   Participants will complete an end to end data science project.  
+This course provides a practical introduction to the data science workflow using Python ([why python?](https://www.tiobe.com/tiobe-index/)). Successful completion of the course will involve using advanced features of Python, retrieving information in data files, working with `numpy` and `pandas` library, visualizations with `matplotlib` and `seaborn`, and machine and deep learning with `scikit-learn`, `pytorch` (or `keras`).   Participants will complete an end to end data science project.  
 
-### Why Python?
-
-[TIOBE Index](https://www.tiobe.com/tiobe-index/)
+ 
 
 ## Data Science Process
 
