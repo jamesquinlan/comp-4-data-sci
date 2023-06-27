@@ -16,7 +16,8 @@ print('x = ',x)                           # a.
 print('Value of',x,'+',x,'is',(x+x))      # b.
 print('x=')                               # c
 print((x+y),'=',(y+x))                    # d.
-# ----------------------- #
+# ----------------------------------------------------------------------- #
+
 
 # 2.2 (What's wrong with this code?) 
 """ 
@@ -24,23 +25,22 @@ The following code should read an integer in the variable `rating`.
 """
 rating = input('Enter an integer rating between 1 and 10: ')
 
-# Answer: There are no runtime errors, however, there are logical errors. 
-# In particular, there is nothing that prevents the user from entering 345 or 
-# a string like, 'The cool cat cooks for criminals'.
-# ----------------------- #
+# Answer: There are no runtime errors; however, there are logical errors. 
+# In particular, nothing prevents the user from entering 345 or 
+# a string like, 'The cool cat cooks for criminals.'
+# ----------------------------------------------------------------------- #
 
 
 
-# 2.3 (Fill in the missing code by replacing ***).  See page 71.  
+# 2.3 (Fill in the missing code by replacing ***).  Please take a look at page 71.  
 """ 
-The code below is the correct code after filling in missing ***.
+The code below is the correct code after filling in the missing ***.
 """
 
 grade = 95
 if grade >= 90:
   print('Congratulations! Your grade of', grade, 'earns you an A in this course.')
-
-# ----------------------- #
+# ----------------------------------------------------------------------- #
 
 
 
@@ -52,8 +52,7 @@ print('27.5 * 2 = ', 27.5 * 2)      # Multiplication
 print('27.5 / 2 = ', 27.5 / 2)      # Division
 print('27.5 // 2 = ', 27.5 // 2)    # Floor Division
 print('27.5 ** 2 =', 27.5 ** 2)     # Exponentiation
-
-# ----------------------- #
+# ----------------------------------------------------------------------- #
 
 
 
@@ -73,8 +72,7 @@ diameter = 2*r
 circumference = 2*pi*r
 
 print('Area = ',area, ', ','Diameter = ', diameter, ', ' 'Circumference = ', circumference)
-
-# ----------------------- #
+# ----------------------------------------------------------------------- #
 
 
 
@@ -89,9 +87,7 @@ if x % 2 == 0:
   print('Even')
 else:
   print('Odd')
-
-# ----------------------- #
-
+# ----------------------------------------------------------------------- #
 
 
 # 2.7 (Multiples) 
@@ -109,8 +105,7 @@ if 2 % 10 == 0:
   print('2 is a multiple of 10')
 else:
   print('2 is NOT a multiple of 10')
-
-# ----------------------- #
+# ----------------------------------------------------------------------- #
 
 
 
@@ -123,8 +118,7 @@ format.  Use the tab escape sequence to achieve the three-column output
 
 print('number \t square \t cube')
 print(0,'\t',0,'\t', 0)
-
-# ----------------------- #
+# ----------------------------------------------------------------------- #
 
 
 
@@ -148,8 +142,7 @@ w=ord('2');print('2 = ',w)
 x=ord('$');print('$ = ',x)
 y=ord('*');print('* = ',y)
 z=ord('+');print('+ = ',z)
-
-# ----------------------- #
+# ----------------------------------------------------------------------- #
 
 
 
@@ -168,8 +161,7 @@ print((x+y+z)/3)
 print(x*y*z)
 print(min(x,y,z))
 print(max(x,y,z))
-
-# ----------------------- #
+# ----------------------------------------------------------------------- #
 
 
 
@@ -178,8 +170,8 @@ print(max(x,y,z))
 Write code that inputs a five-digit integer.  Separate the number into digits.
 Print them separated by three spaces each.  For example, 42339 would be printed
 4   2   3   3   9
-Assume user enters correct number of digits (no leading zeros).  Use FLOOR and
-REM to isolate the digits.  
+Assume the user enters the correct number of digits (no leading zeros).  
+Use FLOOR and REM to isolate the digits.  
 """
 
 digits = [0, 0, 0, 0, 0]
@@ -200,19 +192,17 @@ digits[1] = x % 10
 x = x//10
 digits[0] = x % 10
 
-
 print(digits[0],'   ',digits[1],'   ',digits[2],'   ',digits[3],'   ',digits[4])
-
-# ----------------------- #
+# ----------------------------------------------------------------------- #
 
 
 
 
 # 2.12 (7% Investment Return)
 """
-Let P = $1000.  Calculate and display how much money after 10, 20, and 30 years
-using the formula A = P(1+r)^n where r = 7% and n = 10, 20, 30.  A is the amount
-of deposit at the end of the nth year.  
+Let P = $1000.  Calculate and display how much money you will have after 10, 20, 
+and 30 years using the formula A = P(1+r)^n where r = 7% and n = 10, 20, 30.  
+A is the amount of deposit at the end of the nth year.  
 """
 
 P = 1000
@@ -233,8 +223,7 @@ print(A)
 n = 30
 A = round(P*(1+r)**n,2)
 print(A)
-
-# ----------------------- #
+# ----------------------------------------------------------------------- #
 
 
 
@@ -245,7 +234,7 @@ print(A)
 # 2.13 (How big can Python integers be?)
 """
 Experiment with 2**X for large numbers X.  See if you can break it.
-Make note of the time it takes to compute.  
+Make a note of the time it takes to compute.  
 """
 
 X = 3453454
@@ -254,10 +243,10 @@ print(2**X)
 # 2.14 (Target Heart-rate Calculator)
 """
 Your target heart rate is 50 - 85% of your maximum heart rate in beats per minute.  
-The formula to caluate a persons maximum heart rate (according to the American 
-Heart Association, AHA) is: 220 - Age (in years).
+The formula to calculate a person's maximum heart rate (according to the American 
+Heart Association, AHA) is 220 - Age (in years).
 
-Write code to prompt user for age, then calculate maximum heart rate and target
+Write code to prompt the user for age, then calculate maximum heart rate and target
 range.  
 """
 
@@ -266,17 +255,14 @@ MaxHeartRate = 220 - Age
 Target = [round(0.5*MaxHeartRate,0), round(0.85*MaxHeartRate,0)]
 print('Your Max Heart Rate is: ', MaxHeartRate)
 print('Your Target range is: ', Target)
-
-# ----------------------- #
-
-
+# ----------------------------------------------------------------------- #
 
 
 
 # 2.15 (Sort in Ascending Order)
 """
 Write code that inputs three different floating-point numbers from the user.  
-Display the numbers in increasing order.  Test using all 6 possible orders.
+Display the numbers in increasing order.  Test using all six possible orders.
 Does your script work with duplicate numbers?
 """
 
@@ -314,7 +300,5 @@ else:
     two = y
     three = x
   
-
 print(one, two, three)
-
-# ----------------------- #
+# ----------------------------------------------------------------------- #
