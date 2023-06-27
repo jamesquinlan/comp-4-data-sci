@@ -1,4 +1,4 @@
-## Topics
+# Topics
 
 These are works in progress.  They are presented by chapter in the book but may evolve.
 
