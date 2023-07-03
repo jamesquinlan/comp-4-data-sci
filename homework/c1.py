@@ -70,8 +70,8 @@ is_even(21.32)
 # R-1.3
 # ----------------------------------------------------------------------------
 # Write a function, minmax(data), that takes a sequence of one or more numbers
-# and returns the smallest and largest numbers in the form of a tuple of length
-# two.  Do not use the built-in functions min or max in the implementation.
+# and returns the smallest and largest numbers as a tuple of length
+# two.  Please don't use the built-in functions min or max in the implementation.
 # ----------------------------------------------------------------------------
 
 # Function definition
@@ -156,7 +156,7 @@ sum([i*i for i in range(1,n,2)])
 
 # R-1.8 
 # ----------------------------------------------------------------------------
-# Python allows negative integers to be used as indices into a sequence.
+# Python allows negative integers to be used as indices in a sequence.
 # If string S has length n, and expression S[k] is used for index -n =< k <= 0.
 # What is the equivalent index j >= 0 such that S[j] == S[k]   
 # ----------------------------------------------------------------------------
@@ -212,10 +212,10 @@ j = n - k
 # R-1.12
 # ----------------------------------------------------------------------------
 # Python's random module includes a function choice(data) that returns a
-# random element from a non-empty sequence.  The random module includes a more 
+# random element from a non-empty sequence.  The random module consists of a more 
 # basic function randrange, with parameterization similar to the built-in
-# function, that return a random choice from the given range.  Using only the
-# randrange function, implement your own version of the choice function.
+# function that returns a random choice from the given range.  Using only the
+# randrange function, implement your version of the choice function.
 # ----------------------------------------------------------------------------
 
 from random import randrange
@@ -254,8 +254,8 @@ reverso(data)
 
 # C-1.14
 # ----------------------------------------------------------------------------
-# Write a function that takes a sequences of integer values and determines if
-# there is a distinct pair of numbers in the sequence whose product is odd.
+# Write a function that takes a sequence of integer values and determines if
+# a distinct pair of numbers in the sequence whose product is odd.
 # ----------------------------------------------------------------------------
 
 def oddpair(data):
@@ -380,8 +380,8 @@ print(shuffled)
 # C-1.21 xxxxxxxxxxxxxxxx
 # ----------------------------------------------------------------------------
 # Repeatedly read lines from standard input until an EOFError is raised.
-# Output those lines in reverse order.  User and indicated end of input using
-# ctrl-D
+# Output those lines in reverse order.  The user indicates the end of input 
+# using `ctrl-D`
 # ----------------------------------------------------------------------------
 
 lines = []
@@ -555,18 +555,6 @@ for i1 in range(n):
           for i6 in range(i5+1,n):
             print(i1,i2,i3,i4,i5,i6)
             print(words[i1]+words[i2]+words[i3]+words[i4]+words[i5]+words[i6])
-
-
-#import random
-
-
-# list.remove(element)
-#A = {1,2,3,4,5,6}
-#i = random.randint(1,len(A))
-#print(i)
-#B = {i}
-#A = A - B
-#print(A)
 
 
 
