@@ -290,7 +290,7 @@ else:
 
 # C-1.15
 # ----------------------------------------------------------------------------
-# Write a function that takes a sequences of integer values and determines if
+# Write a function that takes a sequence of integer values and determines if
 # the numbers are distinct.
 # ----------------------------------------------------------------------------
 
@@ -348,7 +348,7 @@ print(x)
 
 # C-1.20
 # ----------------------------------------------------------------------------
-# The random module include the function shuffle(data) that accepts a list
+# The random module includes the function shuffle(data) that accepts a list
 # and randomly reorders the elements so each possible order occurs with equal
 # probability.  The random module includes a more basic function randint(a,b)
 # that returns a uniformly random integer from a to b (inclusive).  Using only
@@ -395,7 +395,7 @@ while not EOFError:
 # C-1.22
 # ----------------------------------------------------------------------------
 # Write a function that takes two integer vectors of length n and returns the
-# Hadamard (element-wise) product.  NOTE: Error in book, NOT the dot product.  
+# Hadamard (element-wise) product.  NOTE: Error in the book, NOT the dot product.  
 # ----------------------------------------------------------------------------
 
 def hadamard(x,y):
@@ -434,7 +434,7 @@ print(vowelcount(data))
 # ----------------------------------------------------------------------------
 # Write a function that takes a string representing a sentence and returns 
 # a copy of the string with all punctuation removed.  For example, given 
-# "Let's try, Mike." will return "Lets try Mike".
+# "Let's try, Mike." will return, "Lets try Mike".
 # ----------------------------------------------------------------------------
 
 punks = {"'",".",","}
@@ -452,7 +452,7 @@ print(result)
 
 # C-1.26
 # ----------------------------------------------------------------------------
-# Write a function that takes three integers, a, b, and c from console and
+# Write a function that takes three integers, a, b, and c from the console and
 # determines if they can be used in a correct arithmetic formula, like 
 # a+b=c, a=b-c, a*b=c
 # ----------------------------------------------------------------------------
@@ -486,7 +486,7 @@ def factors(n):
 # C-1.27
 # ----------------------------------------------------------------------------
 # Implement a generator that reports factors (see Page 41) in increasing order.
-# However, keeps the general performace advantages.
+# However, keeps the general performance advantages.
 # ----------------------------------------------------------------------------
 
 def factors(n): # generator that computes factors
@@ -496,7 +496,7 @@ def factors(n): # generator that computes factors
       yield k
       yield n // k 
     k += 1 
-  if k*k == n: # special case if n is perfect square
+  if k*k == n: # special case if n is a perfect square
     yield k
 
 # Test Original
@@ -594,7 +594,7 @@ print(repeatdivby2(100))
 
 # P-1.31
 # ----------------------------------------------------------------------------
-# Write code that can make change by taking two numbers, the amount of purchase
+# Write code that can make a change by taking two numbers, the amount of purchase
 # and the amount given.  Return the number of each bill and coin.  Also, 
 # return the minimal amount of bills and coins (i.e., a nickel instead of 5
 # pennies).
@@ -605,7 +605,7 @@ print(repeatdivby2(100))
 # P-1.34
 # ----------------------------------------------------------------------------
 # Write code that produces the sentence "I will never spam my friends again.", 
-# 100 times with eigth different random-looking typos.  Number the sentences.
+# 100 times with eight different random-looking typos.  Number the sentences.
 # ----------------------------------------------------------------------------
 
 import random
@@ -624,7 +624,7 @@ print(x,sentences[x])
 # P-1.35 (Birthday Paradox)
 # ----------------------------------------------------------------------------
 # The birthday paradox says P(two people in a room have same birthday) = 50%
-# for n = 23.  Write a program to test this by a series of experiements on
+# for n = 23.  Write a program to test this by a series of experiments on
 # randomly generated birthdays, for n = 5, 10, 15, 20, ..., 100.
 # ----------------------------------------------------------------------------
 
